@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Матиматичні операції</title>
+  </head>
+  <body>
+    <script>
+      let num1 = +prompt("Введіть перше число");
+      /*За допомогою "+" перед командою "promt"
+       переводимо рядки в числа.*/
+      let num2 = +prompt("Введіть друге число");
+      let sum = num1 + num2;
+      alert(`${num1} + ${num2} = ${sum}`); 
+      let sub = num1 - num2;
+      alert(`${num1} - ${num2} = ${sub}`);
+      let app = num1 * num2;
+      alert(`${num1} * ${num2} = ${app}`);
+      let div = num1 / num2;
+      alert(`${num1} / ${num2} = ${div}`);
+    </script>
+    <script>
+      //Другий варіант додавання;
+      //За допомогою функції Number() переводимо рядки в числа;
+      let n1 = prompt("Введіть перше число");
+      let n2 = prompt("Введіть друге число");
+      let s = Number(n1) + Number(n2);
+      alert(`${n1} + ${n2} = ${s}`);
+    </script>
+  </body>
+</html>
